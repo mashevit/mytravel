@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                        
+    
+    
+    
+    
+    <wb-module deploy-name="Tr1Web">
+                                                
+        
+        
+        
+        
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                                                
+        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+                                
+        
+        
+        <dependent-module archiveName="TravelJpa1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/TravelJpa1/TravelJpa1">
+                                                
+            
+            
+            <dependency-type>uses</dependency-type>
+                                            
+        
+        
+        </dependent-module>
+                                
+        
+        
+        <dependent-module archiveName="DBEJBClient.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/DBEJBClient/DBEJBClient">
+                                                
+            
+            
+            <dependency-type>uses</dependency-type>
+                                            
+        
+        
+        </dependent-module>
+                
+        <dependent-module archiveName="DBEJB.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/DBEJB/DBEJB">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                                                
+        
+        
+        
+        
+        <property name="context-root" value="Tr1Web"/>
+                                                
+        
+        
+        
+        
+        <property name="java-output-path" value="/Tr1Web/build/classes"/>
+                                            
+    
+    
+    
+    
+    </wb-module>
+                    
+
+
+
+
+</project-modules>

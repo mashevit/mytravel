@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="TravelJpa1">
+		<jta-data-source>java:/travel1nsl</jta-data-source>
+		<class>tr.model.City</class>
+		<class>tr.model.Pic</class>
+		<class>tr.model.Sightseeing</class>
+		<class>tr.model.Traveler</class>
+		<class>tr.model.Trip</class>
+		<class>tr.model.TripSightseeing</class>
+		<properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLInnoDBDialect"/>
+			<property name="hibernate.hbm2ddl.auto" value="update"/>
+		</properties>
+	</persistence-unit>
+</persistence>
