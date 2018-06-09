@@ -1,37 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
             
     
-    <wb-module deploy-name="myEAP">
+    <wb-module deploy-name="myEAP-0.0.1-SNAPSHOT">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
                         
         
         <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
-                        
-        
-        <dependent-module archiveName="TravelJpa1.jar" deploy-path="/lib" handle="module:/resource/TravelJpa1/TravelJpa1">
-                                    
-            
-            <dependency-type>uses</dependency-type>
-                                
-        
-        </dependent-module>
-                
-        <dependent-module archiveName="DBEJB.jar" deploy-path="/" handle="module:/resource/DBEJB/DBEJB">
-                        
-            <dependent-object/>
-                        
-            <dependency-type>uses</dependency-type>
-                    
-        </dependent-module>
-                
-        <dependent-module archiveName="DBEJBClient.jar" deploy-path="/" handle="module:/resource/DBEJBClient/DBEJBClient">
-                        
-            <dependency-type>uses</dependency-type>
-                    
-        </dependent-module>
-        <dependent-module archiveName="Tr1Web.war" deploy-path="/" handle="module:/resource/Tr1Web/Tr1Web">
-            <dependent-object/>
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
                     
     
     </wb-module>

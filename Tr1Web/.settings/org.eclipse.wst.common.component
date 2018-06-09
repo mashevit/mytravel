@@ -4,7 +4,8 @@
     
     
     
-    <wb-module deploy-name="Tr1Web">
+    <wb-module deploy-name="Tr1Web-0.0.1-SNAPSHOT">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
                                                 
         
         
@@ -17,36 +18,6 @@
         
         
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-                                
-        
-        
-        <dependent-module archiveName="TravelJpa1.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/TravelJpa1/TravelJpa1">
-                                                
-            
-            
-            <dependency-type>uses</dependency-type>
-                                            
-        
-        
-        </dependent-module>
-                                
-        
-        
-        <dependent-module archiveName="DBEJBClient.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/DBEJBClient/DBEJBClient">
-                                                
-            
-            
-            <dependency-type>uses</dependency-type>
-                                            
-        
-        
-        </dependent-module>
-                
-        <dependent-module archiveName="DBEJB.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/DBEJB/DBEJB">
-                        
-            <dependency-type>uses</dependency-type>
-                    
-        </dependent-module>
                                                 
         
         
